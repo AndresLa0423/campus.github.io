@@ -1,14 +1,12 @@
-/*
-Theme Name: Cemre Bakery Theme
-Theme URI: https://bakery.cemreworks.com
-Author: Cemre Tellioğlu Tunçay
-Author URI: https://cemreworks.com
-*/
-/*
-* ==========================================
-* GENERAL AND HEADER START
-* ==========================================
-*/
+/* Top Bar
+--------------------------------------------------------------------------------------------------------------- */
+#topbar{ padding:25px 0; text-transform:uppercase;}
+
+#topbar ul li{display:inline-block; margin-right:15px;}
+#topbar ul li:last-child{margin-right:0; padding-right:0; border-right:none;}
+#topbar i{line-height:normal;}
+.fl_left, .fl_right{display:block; float:none;}
+
 
 
 .fixedArea {
@@ -52,7 +50,7 @@ a {
   font-family: 'Poppins';
   font-size: 14px;
   line-height: 1.7;
-  color: #666666;
+  color: #fff;
   margin: 0px;
 }
 
@@ -78,7 +76,7 @@ p {
   font-family: 'Poppins';
   font-size: 14px;
   line-height: 1.7;
-  color: #666666;
+  color: #fff;
   margin: 0px;
 }
 
@@ -211,7 +209,7 @@ iframe {
   font-family: 'Roboto';
   font-size: 14px;
   line-height: 1.7;
-  color: #666666;
+  color: #fff;
   margin: 0px;
   font-size: 22px;
   color: #fff;
@@ -363,7 +361,7 @@ section#section2 .maintext p {
   font-family: "Roboto";
   font-size: 14px;
   line-height: 1.7;
-  color: #666666;
+  color: #fff;
   margin: 0px;
   padding-left: 50px;
   padding-right: 50px;
@@ -596,6 +594,10 @@ div#news-slider .owl-next {
 * NAVBAR START
 * ==========================================
 */
+
+ul li::marker { 
+  color: red;
+}
 
 .navbar.active {
   background: #333333;
@@ -1612,14 +1614,14 @@ li.address-section .fa{
   font-family: 'Poppins';
   font-size: 14px;
   line-height: 1;
-  color: #666666;
+  color: #fff;
 }
 
 .footer-section .footer-icon {
   width: 25px;
   height: 25px;
-  border-radius: 10px solid #83ac00;
-  border: 2px solid #83ac00;
+  border-radius: 10px solid #fff;
+  border: 2px solid #fff;
   border-radius: 15px;
   text-align: center;
 }
@@ -1633,7 +1635,7 @@ li.address-section .fa{
   height: 2px;
   margin-top: 0px;
   padding-top: 0px;
-  color: #83ac00;
+  color: #fff;
 }
 li.footer-section{
   margin-bottom: 12px;
